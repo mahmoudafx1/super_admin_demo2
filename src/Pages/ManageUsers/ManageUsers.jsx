@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, X, Clock, MapPin, Tag, User, DollarSign, Calendar,Building2 } from 'lucide-react';
+import { Check, X, Clock, MapPin, Tag, User, DollarSign, Building2 } from 'lucide-react';
 
 const Services = () => {
     const services = [
@@ -33,7 +33,7 @@ const Services = () => {
 
     return (
         <div className="p-[30px] bg-[#fcfcfc] min-h-screen animate-[fadeIn_0.4s_ease-in]">
-            
+
 
             {/* Header */}
             <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">

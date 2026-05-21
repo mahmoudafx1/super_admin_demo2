@@ -1,7 +1,7 @@
 import React from "react";
 import logoImg from '../img/booklyx.png';
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import { LayoutDashboard, CheckSquare, Users, Building2, DollarSign, LogOut, Store } from "lucide-react";
+import { LayoutDashboard, CheckSquare, Building2, DollarSign, LogOut, Store } from "lucide-react";
 
 function Sidebar({ isOpen, isMobile }) {
     const location = useLocation();
